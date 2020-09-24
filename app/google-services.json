@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "578092518291",
+    "firebase_url": "https://bloodline-cfb58.firebaseio.com",
+    "project_id": "bloodline-cfb58",
+    "storage_bucket": "bloodline-cfb58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578092518291:android:7765bd64b750ea70beb666",
+        "android_client_info": {
+          "package_name": "com.example.bloodline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578092518291-9ufs6hpe66nc2panqtljai5382el7324.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVE2Jy1mhpfOqZDkqhz9wcUPp8qs6ryYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578092518291-9ufs6hpe66nc2panqtljai5382el7324.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
