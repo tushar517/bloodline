@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@android:color/white"
+  tools:context="com.Activities.RegisterActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+      android:textStyle="bold"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:text="Sign up to become a user to either donate blood or search for donor  ."
+      android:textColor="@android:color/black"
+      android:textSize="24sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp">
+
+      <EditText
+          android:id="@+id/name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Name"
+          android:inputType="text"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp">
+      <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:inputType="text"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp">
+      <EditText
+        android:id="@+id/number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number(Verifiable)"
+        android:inputType="number"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp">
+
+      <EditText
+          android:id="@+id/blood_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Blood Group"
+          android:inputType="text"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="10dp"
+      android:layout_marginEnd="10dp"
+      app:passwordToggleEnabled="true">
+
+      <EditText
+          android:id="@+id/password2"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="Password"
+          android:inputType="textPassword"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        app:passwordToggleEnabled="true">
+
+      <EditText
+          android:id="@+id/Area"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:hint="Area"
+          android:inputType="text"
+          android:textColor="@android:color/black"
+          android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/button_bg"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+  </LinearLayout>
+
+</ScrollView>
